@@ -1,0 +1,1 @@
+FLASK_APP=tech_site_ride.py
