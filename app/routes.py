@@ -18,5 +18,8 @@ def legal():
 def buy():
     pass #TODO: code this
 
+@app.route('/my_reservations')
+def my_reservations():
+    pass #TODO: code this
 #GENERAL TODO: Code a rest api to retrieve reservation info, create a db for reservation info.
 
