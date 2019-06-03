@@ -1,0 +1,66 @@
+@keyframes redblack {
+  0%   {background-color:red;}
+  50%	{background-color:black;}
+  100% {background-color:red;}
+}
+
+@keyframes blackred {
+  0%   {color:black;}
+  50%	{color:red;}
+  100% {color:black;}
+}
+
+@keyframes blackred_border {
+  0%   {border-color:black;}
+  50%	{border-color:red;}
+  100% {border-color:black;}
+}
+
+body {
+	background-color: red;
+	animation: redblack 1s ease infinite;
+	font-family: "Courier New";
+	padding: 25px 50px;
+}
+
+p {
+	text-transform: uppercase;
+    text-align: center;
+	
+	color: black;
+}
+
+#bigdiv {
+	vertical-align: middle;	
+	border: solid 15px;
+	animation: blackred_border 1s ease infinite;
+	background-color: white;
+	vertical-align: middle;
+	height: 100%;
+	 margin: 0 auto;
+}
+
+#bigdiv ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DBDCCB;
+}
+
+#bigdiv li {
+  float: left;
+  display: inline;
+}
+
+#bigdiv li a {
+  display: block;
+  color: #424F40;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#bigdiv li a:hover {
+	background-color: #E3F4F4;
+}
