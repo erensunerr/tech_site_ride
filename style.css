@@ -4,16 +4,17 @@
   100% {background-color:red;}
 }
 
-@keyframes blackred {
-  0%   {color:black;}
-  50%	{color:red;}
-  100% {color:black;}
-}
-
 @keyframes blackred_border {
   0%   {border-color:black;}
   50%	{border-color:red;}
   100% {border-color:black;}
+}
+
+@keyframes redblack_line{
+  0%   {border-left-color:red;}
+  50%	{border-left-color:black;}
+  100% {border-left-color:red;}
+	
 }
 
 body {
@@ -24,11 +25,70 @@ body {
 }
 
 p {
-	text-transform: uppercase;
-    text-align: center;
-	
 	color: black;
 }
+
+#info1 {
+	float: left;
+	vertical-align: top;
+	width: 40%;
+	height: 40%;
+	margin: 1%;
+}
+
+#info2{
+	float: right;
+	vertical-align: bottom;
+	width: 40%;
+	height: 40%;
+	margin: 1%;
+}
+
+#img1{
+	float: right;
+	vertical-align: top;
+	width: 40%;
+	height: 40%;
+	object-fit: cover;
+	margin: 1%;
+}
+
+.vl {
+  border-left: 18px solid red;
+  animation: redblack_line 1s ease infinite;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 28%;
+  margin-top: -3px;
+}
+
+#title {
+	text-align: center;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#img2{
+	position: relative;
+	bottom: 20px;
+	float: left;
+	vertical-align: bottom;
+	width: 40%;
+	height: 40%;
+	object-fit: cover;
+	margin: 1%;
+	margin-bottom: 3%;
+}
+
+
 
 #bigdiv {
 	vertical-align: middle;	
