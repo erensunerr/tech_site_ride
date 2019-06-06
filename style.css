@@ -14,12 +14,12 @@
   0%   {border-left-color:red;}
   50%	{border-left-color:black;}
   100% {border-left-color:red;}
-	
+
 }
 
 body {
 	background-color: red;
-	animation: redblack 1s ease infinite;
+	animation: redblack 3s ease infinite;
 	font-family: "Courier New";
 	padding: 25px 50px;
 }
@@ -53,10 +53,22 @@ p {
 	margin: 1%;
 }
 
+#img2{
+	position: relative;
+	bottom: 7%;
+	float: left;
+	vertical-align: bottom;
+	width: 40%;
+	height: 40%;
+	object-fit: cover;
+	margin: 1%;
+
+}
+
 .vl {
   border-left: 18px solid red;
-  animation: redblack_line 1s ease infinite;
-  height: 500px;
+  animation: redblack_line 3s ease infinite;
+  height: 65%;
   position: absolute;
   left: 50%;
   margin-left: -3px;
@@ -76,24 +88,14 @@ p {
   display: inline-block;
 }
 
-#img2{
-	position: relative;
-	bottom: 20px;
-	float: left;
-	vertical-align: bottom;
-	width: 40%;
-	height: 40%;
-	object-fit: cover;
-	margin: 1%;
-	margin-bottom: 3%;
-}
+
 
 
 
 #bigdiv {
-	vertical-align: middle;	
+	vertical-align: middle;
 	border: solid 15px;
-	animation: blackred_border 1s ease infinite;
+	animation: blackred_border 3s ease infinite;
 	background-color: white;
 	vertical-align: middle;
 	height: 96%;
